@@ -13,7 +13,6 @@
   "dependencies": {
     "@tensorflow-models/qna": "^1.0.1",
     "@tensorflow/tfjs": "^4.6.0",
-    "@tensorflow/tfjs-backend-webgpu": "^4.6.0",
     "@tensorflow/tfjs-converter": "^4.6.0",
     "@tensorflow/tfjs-core": "^4.6.0",
     "@tensorflow/tfjs-node": "^4.6.0",
