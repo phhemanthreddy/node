@@ -2,6 +2,10 @@ const express = require("express");
 const app = express();
 require("@tensorflow/tfjs-node");
 const qna = require("@tensorflow-models/qna");
+const cors = require("cors");
+
+// Enable CORS for all routes
+app.use(cors());
 
 // Middleware to parse JSON in request body
 app.use(express.json());
